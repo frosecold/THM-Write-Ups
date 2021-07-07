@@ -33,8 +33,8 @@ The website has a server side filter apparently using an extension blacklist and
 ### Privilege Escalation
 
 ```bash
-find / type -f -perm -u=s  2>/dev/null
-find / type -f -perm -g=s  2>/dev/null
+find / -perm -u=s  2>/dev/null
+find / -perm -g=s  2>/dev/null
 ```
 ![](images/image3.png)
 
