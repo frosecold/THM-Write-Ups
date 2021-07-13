@@ -1,0 +1,32 @@
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.180.21
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/dirbuster/wordlists/directory-list-lowercase-2.3-medium.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.1.0
+[+] Timeout:                 10s
+===============================================================
+2021/07/12 01:20:38 Starting gobuster in directory enumeration mode
+===============================================================
+/rss                  (Status: 301) [Size: 0] [--> http://10.10.180.21/feed/]
+/login                (Status: 302) [Size: 0] [--> http://blog.thm/wp-login.php]
+/0                    (Status: 301) [Size: 0] [--> http://10.10.180.21/0/]      
+/feed                 (Status: 301) [Size: 0] [--> http://10.10.180.21/feed/]   
+/atom                 (Status: 301) [Size: 0] [--> http://10.10.180.21/feed/atom/]
+/wp-content           (Status: 301) [Size: 317] [--> http://10.10.180.21/wp-content/]
+/admin                (Status: 302) [Size: 0] [--> http://blog.thm/wp-admin/]        
+/rss2                 (Status: 301) [Size: 0] [--> http://10.10.180.21/feed/]        
+/wp-includes          (Status: 301) [Size: 318] [--> http://10.10.180.21/wp-includes/]
+/rdf                  (Status: 301) [Size: 0] [--> http://10.10.180.21/feed/rdf/]     
+/page1                (Status: 301) [Size: 0] [--> http://10.10.180.21/]              
+/'                    (Status: 301) [Size: 0] [--> http://10.10.180.21/]              
+/dashboard            (Status: 302) [Size: 0] [--> http://blog.thm/wp-admin/]         
+/%20                  (Status: 301) [Size: 0] [--> http://10.10.180.21/]              
+/2020                 (Status: 301) [Size: 0] [--> http://10.10.180.21/2020/]         
+/wp-admin             (Status: 301) [Size: 315] [--> http://10.10.180.21/wp-admin/]   
+/0000                 (Status: 301) [Size: 0] [--> http://10.10.180.21/0000/]         
+/embed                (Status: 301) [Size: 0] [--> http://10.10.180.21/embed/]        
