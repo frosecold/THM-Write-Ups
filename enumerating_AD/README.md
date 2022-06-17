@@ -1,14 +1,14 @@
 # Enumerating Active Directory
 
 ## Concepts
--Active Directory (AD)
--Bloodhound
--AD RSAT
--runas.exe
+-Active Directory (AD)<br>
+-Bloodhound<br>
+-AD RSAT<br>
+-runas.exe<br>
 
-Credentials (from http://distributor.za.tryhackme.com/creds)
-Username: graeme.williams 
-Password: hJnlKuLBa2 ---> Tramposo.123
+Credentials (from http://distributor.za.tryhackme.com/creds)<br>
+Username: graeme.williams <br>
+Password: hJnlKuLBa2 ---> Tramposo.123<br>
 
 ### Useful commands (cmd)
 `net user /domain`				#To enumerate users in the joined domain <br>
@@ -21,7 +21,7 @@ Password: hJnlKuLBa2 ---> Tramposo.123
 
 `net accounts /domain`			#To list password policies <br>
 
-[Documentation ](https://docs.microsoft.com/en-us/troubleshoot/windows-server/networking/net-commands-on-operating-systems)
+---> [Documentation ](https://docs.microsoft.com/en-us/troubleshoot/windows-server/networking/net-commands-on-operating-systems)
 
 ### More useful commands (PowerShell)
 
@@ -42,5 +42,3 @@ Password: hJnlKuLBa2 ---> Tramposo.123
 
 `Get-ADObject -Filter 'ObjectClass -eq "group"' -Properties whencreated | Select-Object name, whencreated | sort name | ft -AutoSize` # Find an object with a specific property
 
-
-scp graeme.williams@THMJMP1.za.tryhackme.com:C:/Users/graeme.williams/Documents/20220616032307_BloodHound.zip .
