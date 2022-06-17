@@ -26,7 +26,7 @@ Password: hJnlKuLBa2 ---> Tramposo.123
 ### More useful commands (PowerShell)
 
 `Get-ADUser -Identity gordon.stevens -Server za.tryhackme.com -Properties *` 	# To query AD users by their logon name <br> 
-![Logon Name](images/image1)
+![Logon Name](images/image1.png)
 
 `Get-ADGroup -Identity Administrators -Server za.tryhackme.com`					# To get group information
 
